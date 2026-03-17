@@ -8,7 +8,8 @@ public class GroupAnagram {
     // first we create boolean array
     //if visited means we will continue(skip the word)
     //if not then we add in group then check, if the two word is equal then combined in using ArrayList
-    //if not the word will be considered seperate list
+    //if not the word will be considered separate list
+
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>>result = new ArrayList<>();
         boolean [] visited = new boolean[strs.length];

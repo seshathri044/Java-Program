@@ -1,4 +1,4 @@
-package DSA;
+package DSA.ArrayAndHashing;
 
 import java.util.Arrays;
 
@@ -6,10 +6,10 @@ public class TwoSum {
     public int [] Two(int[] a,int target){
         for(int i=0;i<a.length;i++){
             for(int j=i+1;j<a.length;j++){
-                int index=target-a[j]-target;
+                int index=target-a[j];
                 if(index==a[i]){
 
-                    return new int[]{index,j};
+                    return new int[]{i,j};
                 }
             }
         }

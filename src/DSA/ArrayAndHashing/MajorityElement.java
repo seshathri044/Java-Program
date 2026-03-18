@@ -16,6 +16,7 @@ public class MajorityElement {
         }
         return -1;
     }
+
     public static void main(String [] args){
         MajorityElement m = new MajorityElement();
         int [] nums = {1,3,3,3,4};
